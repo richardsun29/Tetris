@@ -116,6 +116,13 @@
 		</style>
 	</head>
 	<body>
+		<configuration>
+		<system.webServer>
+		<staticContent>
+		<mimeMap fileExtension=".unity3d" mimeType="TYPE/SUBTYPE" />
+		</staticContent>
+		</system.webServer>
+		</configuration>
 		<p class="header"><span>Unity Web Player | </span>Tetris</p>
 		<div class="content">
 			<div id="unityPlayer">
